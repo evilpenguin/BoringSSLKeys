@@ -19,18 +19,18 @@ Useage
 - rvictl -s SERIAL
 - tcpdump -i rvi0 -w capture.pcap -P
 - Run the app you want
-- Pull keylog from `/var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSLLKey.keylog`
-- wireshark -r capture.pcap -o tls:keylog_file:BoringSLLKey.keylog
+- Pull keylog from `/var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSSLKey.keylog`
+- wireshark -r capture.pcap -o tls:keylog_file:BoringSSLKey.keylog
 - Science
 
-Console.app Output Filtered by `[BoringSLLKey]`
+Console.app Output Filtered by `[BoringSSLKey]`
 ----------
 ```
 [BoringSSLKey] CLIENT_RANDOM STUFF STUFF
-[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSLLKey.keylog
+[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSSLKey.keylog
 [BoringSSLKey] CLIENT_HANDSHAKE_TRAFFIC_SECRET STUFF STUFF
-[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSLLKey.keylog
+[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSSLKey.keylog
 [BoringSSLKey] SERVER_HANDSHAKE_TRAFFIC_SECRET STUFF STUFF
-[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSLLKey.keylog
+[BoringSSLKey] Writing to: /var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSSLKey.keylog
 
 ```

@@ -18,7 +18,7 @@ static void _write_to_file(const char *line) {
 
             // Get Cache directory
             NSString *cachesDirectory = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
-            NSString *logPath = [cachesDirectory stringByAppendingPathComponent:@"BoringSLLKey.keylog"];
+            NSString *logPath = [cachesDirectory stringByAppendingPathComponent:@"BoringSSLKey.keylog"];
             NSLog(@"[BoringSSLKey] Writing to: %@", logPath);
 
             // Write empty file
