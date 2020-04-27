@@ -1,6 +1,6 @@
 # BoringSSLKeys
 - Allows use of `SSL_CTX_set_keylog_callback` in Apples version of libboringssl
-- Logs
+- Logs to console and cached file
     - `CLIENT_RANDOM` 
     - `CLIENT_HANDSHAKE_TRAFFIC_SECRET` 
     - `SERVER_HANDSHAKE_TRAFFIC_SECRET` 
