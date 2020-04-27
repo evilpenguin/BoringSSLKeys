@@ -11,6 +11,7 @@
 Required
 ----------
 - iOS 13.3.1 (for now)
+- A11 and below chips
 - tcpdump (To capture packets)
 - Wireshark (to decrypt pcaps)
 
