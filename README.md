@@ -16,7 +16,8 @@ Required
 
 Useage
 ----------
-- rvictl -s SERIAL
+- rvictl -L
+- rvictl -s UDID
 - tcpdump -i rvi0 -w capture.pcap -P
 - Run the app you want
 - Pull keylog from `/var/mobile/Containers/Data/Application/{UUID}/Library/Caches/BoringSSLKey.keylog`
