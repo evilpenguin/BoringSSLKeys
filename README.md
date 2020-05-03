@@ -10,14 +10,18 @@
 
 Required
 ----------
-- iOS 13.3.1 (for now)
+- iOS 13.3.1
 - A11 and below chips
+- Jailbroken using Mobile Substrate
+
+Suggested
+----------
+- rvictl (to connect iOS device)
 - tcpdump (To capture packets)
 - Wireshark (to decrypt pcaps)
 
 Useage
 ----------
-- rvictl -L
 - rvictl -s UDID
 - tcpdump -i rvi0 -w capture.pcap -P
 - Run the app you want
