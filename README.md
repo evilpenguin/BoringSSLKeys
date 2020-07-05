@@ -11,7 +11,6 @@
 Required
 ----------
 - iOS 13.3.1
-- A11 and below chips
 - Jailbroken using Mobile Substrate
 
 Suggested
